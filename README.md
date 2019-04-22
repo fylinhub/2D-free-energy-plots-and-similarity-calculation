@@ -1,4 +1,4 @@
-# 2D_Free_Energy_Plots-Similary-Test
+# 2D free energy plots and similarity calculation
 This is an example of plotting 2d free energy surface and calculating overlap_coefficient (OC) of two 2D distributions.
 The input data is 1) met_chi1chi2.csv (chi1/chi2 dihedral angles of experimental data)
                   2) chirest10.c7eq.met.dat (chi1/chi2 dihedral angles of simulated data)
