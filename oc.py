@@ -39,7 +39,7 @@ def hist2d(a,b):
         binstop=[]
         for i in range(binnumber):
             binstart.append(start+binsize*i)
-            binstop.append(start++binsize+binsize*i)
+            binstop.append(start+binsize+binsize*i)
         bincount=np.zeros(binnumber*binnumber)
         nlen=len(a)
         for n in range(nlen):
@@ -62,7 +62,7 @@ def hist2d2(a,b):
         binstop=[]
         for i in range(binnumber):
             binstart.append(start+binsize*i)
-            binstop.append(start++binsize+binsize*i)
+            binstop.append(start+binsize+binsize*i)
         bincount=np.zeros(binnumber*binnumber)
         nlen=len(a)
         for n in range(nlen):
